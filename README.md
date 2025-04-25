@@ -5,6 +5,7 @@ Machine Learning (ML) is a branch of artificial intelligence that enables comput
 > "Father of Machine Learning" is often attributed to Arthur Samuel.
 
 ## Types of Machine Learning
+<img src="ML Types.png" width="500px" alt="ML Types">
 
 ### 1. Supervised Learning
 - Trained using <b>labeled data </b> (input-output pairs).
