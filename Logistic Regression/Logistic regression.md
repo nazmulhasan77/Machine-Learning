@@ -23,12 +23,28 @@ This is the **sigmoid function** applied to a **linear combination** of input fe
 
 ---
 
-## ⚙️ How It Works
+Here’s your explanation formatted for a **GitHub README.md** file using Markdown syntax:
 
-1. Takes input features (e.g., age, income).
-2. Computes a weighted sum: \( z = \beta_0 + \beta_1X_1 + \dots + \beta_nX_n \)
-3. Applies the sigmoid function: \( \sigma(z) = \frac{1}{1 + e^{-z}} \)
-4. Converts probability to class based on threshold (e.g. 0.5)
+---
+
+## ⚙️ How Logistic Regression Works
+
+1. **Takes input features** (e.g., age, income).
+2. **Computes a weighted sum**:
+
+   $$
+   z = \beta_0 + \beta_1X_1 + \dots + \beta_nX_n
+   $$
+3. **Applies the sigmoid function** to convert the sum into a probability:
+
+   $$
+   \sigma(z) = \frac{1}{1 + e^{-z}}
+   $$
+4. **Classifies** the output based on a threshold (commonly **0.5**):
+
+   * If $\sigma(z) \geq 0.5$ → Predict **class 1**
+   * If $\sigma(z) < 0.5$ → Predict **class 0**
+
 
 ---
 
