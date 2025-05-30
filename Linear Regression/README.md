@@ -18,7 +18,6 @@ Where:
 - `x` = input feature  
 - `m` = slope (coefficient)  
 - `c` = y-intercept  
-
 ---
 
 ## 📘 Types of Linear Regression
