@@ -28,7 +28,7 @@ If a set has 100% of one class, entropy = 0 (pure).
 
 ### 2. **Information Gain (IG)**
 
-Information Gain is the reduction in entropy after splitting:
+Information Gain is the reduction in entropy after splitting: 
 
 $$
 IG(S, A) = Entropy(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} \cdot Entropy(S_v)
