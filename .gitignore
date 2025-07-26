@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# Python environment files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# MyPy, coverage, test, and PyInstaller
+.mypy_cache/
+.pytest_cache/
+coverage.*
+htmlcov/
+*.cover
+*.pyc
+
+# Jupyter Notebook history
+.history/
+
+# Environment variables
+.env
+.env.*
+
+# Data files (optional: remove if you want to track them)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.json
+*.pkl
+*.joblib
+*.db
+
+# Spyder IDE
+.spyderproject
+.spyproject
+
+# PyCharm
+.idea/
