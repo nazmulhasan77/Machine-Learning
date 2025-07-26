@@ -44,17 +44,6 @@ htmlcov/
 .env
 .env.*
 
-# Data files (optional: remove if you want to track them)
-*.csv
-*.tsv
-*.xls
-*.xlsx
-*.parquet
-*.h5
-*.json
-*.pkl
-*.joblib
-*.db
 
 # Spyder IDE
 .spyderproject
