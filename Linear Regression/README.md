@@ -1,6 +1,6 @@
 # 📊 Linear Regression Overview
 
-## 🧠 What is Linear Regression?
+## 🧠 What is Linear Regression ?
 
 Linear Regression is a **supervised machine learning** algorithm used to **predict a continuous value** based on the relationship between one or more features (input variables) and a label (output variable). It assumes a **linear relationship** between them.
 
@@ -18,7 +18,6 @@ Where:
 - `x` = input feature  
 - `m` = slope (coefficient)  
 - `c` = y-intercept  
-
 ---
 
 ## 📘 Types of Linear Regression
